@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+main{
+    margin: auto;
+    display: grid;
+    grid-template-areas: "h h h"
+                         "a a a"
+                         "f f f";
+    width: 80%;
+    max-width: 800px;
+}
+
+section{
+    background-color: blue;
+    grid-area: s;
+}
+article{
+    background-color: black;
+    grid-area: a;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+footer{
+    margin:auto;
+    grid-area: f;
+}
+.negyzet {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 1fr;
+}
