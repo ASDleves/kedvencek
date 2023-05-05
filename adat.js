@@ -48,4 +48,13 @@ export const ADAT = [
         neve: "Birka",
         fajtaja: "Dobermann",  
     },
+
+    {
+        neve: "Pista",
+        fajtaja: "Huskár",  
+    },
+    {
+        neve: "Bandi",
+        fajtaja: "kandúr",  
+    },
 ]

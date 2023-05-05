@@ -5,7 +5,7 @@ main{
     margin: auto;
     display: grid;
     grid-template-areas: "h h h"
-                         "a a a"
+                         "a a as"
                          "f f f";
     width: 80%;
     max-width: 800px;
@@ -19,7 +19,13 @@ article{
     background-color: black;
     grid-area: a;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+aside{
+    grid-area: as;
+    background-color: black;
+    color: white;
+    grid-template-columns: 1fr;
 }
 footer{
     margin:auto;
@@ -27,7 +33,7 @@ footer{
 }
 .negyzet {
     width: 150px;
-    height: 150px;
+    height: 250px;
     background-color: white;
     display: flex;
     text-align: center;
